@@ -1,0 +1,8 @@
+{
+  "services": [
+    {"name": "GitHub", "url": "https://github.com", "expected_status": 200, "max_latency_ms": 3000},
+    {"name": "Python.org", "url": "https://www.python.org", "ssl_warn_days": 21},
+    {"name": "httpbin 200", "url": "https://httpbin.org/status/200"},
+    {"name": "httpbin 503 (demo fail)", "url": "https://httpbin.org/status/503"}
+  ]
+}
